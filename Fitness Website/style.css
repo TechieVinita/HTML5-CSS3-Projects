@@ -1,0 +1,119 @@
+/* CSS Reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* body */
+body{
+    font-family: 'Roboto', sans-serif;
+    background-image: url("img/bg2.jpg");
+    background-size: cover;
+    background-color: rgba(255,255,255,0.1);
+}
+
+.header{
+    background-color: rgba(255, 255, 255, 0.5);
+    color: black;
+    height: 75px;
+}
+
+.left{
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 30px;
+    padding: 4px 4px;
+}
+
+.left img{
+    width: 60px;
+    margin-left: 22px;
+}
+
+.left div{
+    line-height: 0px;
+    font-weight: bold;
+}
+
+.mid{
+    width: 36%;
+    margin: 0 auto;
+}
+
+.navbar{
+    display: inline-block;
+    margin-top: 28px;
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.navbar li a {
+    color: black;
+    text-decoration: none;
+    padding: 34px 23px;
+
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+    color: rgb(250, 125, 125);
+
+}
+
+.right{
+    position: absolute;
+    right: 34px;
+    top: 23px;
+}
+
+.btn{
+    border: 1px solid black;
+    padding: 10px 10px;
+    margin: -7px 5px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.btn:hover{
+    background-color: rgb(240, 143, 143);
+}
+
+.container {
+    border: 1px solid black;
+    width: 33%;
+    padding: 35px;
+    position: absolute;
+    top: 106px;
+    left: 52px;
+    border-radius: 20px;
+    background-color:rgba(255, 255, 255, 0.5);
+}
+
+.form-group input {
+    text-align: center;
+    display: block;
+    width: 230px;
+    padding: 5px;
+    border: 1px solid black;
+    margin: 8px auto;
+    font-size: 13px;
+    border-radius: 5px;
+}
+
+.container h1 {
+    text-align: center;
+    font-size: 22px;
+    margin-bottom: 35px;
+}
+
+.container button {
+    display: block;
+    width: 230px;
+    border-radius: 5px;
+    margin: 20px auto;
+}
